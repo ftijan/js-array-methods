@@ -1,24 +1,25 @@
 // test code taken from https://github.com/WebDevSimplified/array-methods-library project file arrayMethods.js
 
-// const {
-//     forEach,
-//     map,
-//     filter,
-//     reduce,
-//     some,
-//     every,
-//     flat,
-//     find,
-//   } = require("./array-clone-methods.js")
-  
-  const forEach = (a, ...args) => a.forEach(...args)
-  const map = (a, ...args) => a.map(...args)
-  const filter = (a, ...args) => a.filter(...args)
-  const reduce = (a, ...args) => a.reduce(...args)
-  const some = (a, ...args) => a.some(...args)
-  const every = (a, ...args) => a.every(...args)
-  const flat = (a, ...args) => a.flat(...args)
-  const find = (a, ...args) => a.find(...args)
+const {
+    forEach,
+    map,
+    filter,
+    reduce,
+    some,
+    every,
+    flat,
+    find,
+  } = require("./array-clone-methods.js")
+
+//   default JS implementations
+//   const forEach = (a, ...args) => a.forEach(...args)
+//   const map = (a, ...args) => a.map(...args)
+//   const filter = (a, ...args) => a.filter(...args)
+//   const reduce = (a, ...args) => a.reduce(...args)
+//   const some = (a, ...args) => a.some(...args)
+//   const every = (a, ...args) => a.every(...args)
+//   const flat = (a, ...args) => a.flat(...args)
+//   const find = (a, ...args) => a.find(...args)
   
   it("forEach", () => {
     const func = jest.fn()
