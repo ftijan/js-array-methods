@@ -1,0 +1,13 @@
+{
+  "name": "js-array-methods",
+  "version": "1.0.0",  
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --noStackTrace"
+  },  
+  "author": "ftijan",
+  "license": "MIT",  
+  "devDependencies": {
+    "jest": "^29.2.1"
+  }
+}
